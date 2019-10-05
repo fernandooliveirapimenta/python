@@ -14,3 +14,4 @@ def posicao(time, tabela):
     return -1
 
 print(posicao('Cruzeiro', tabela))
+print(tabela.index('Cruzeiro'))
