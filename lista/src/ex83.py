@@ -16,3 +16,4 @@ def testaparenteses(expr):
     return contador == 0
 
 print(testaparenteses(exp))
+
