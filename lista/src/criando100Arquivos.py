@@ -1,3 +1,3 @@
 
-for x in range(1, 100):
-    open('f{}.txt'.format(x))
+for x in range(101, 130):
+    open(f'ex{x}.py', 'w+')
