@@ -1,0 +1,227 @@
+{
+	"info": {
+		"_postman_id": "60945239-f93b-466b-ae61-80cce604d19e",
+		"name": "zarc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "download-planilha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://indicadores.agricultura.gov.br/QvAjaxZfc/QvsViewClient.aspx?public=only&size=long&host=QVS%40masrv1005&name=Temp/182f4df91a644c3ea1ebdc920ba1a799.csv",
+					"protocol": "http",
+					"host": [
+						"indicadores",
+						"agricultura",
+						"gov",
+						"br"
+					],
+					"path": [
+						"QvAjaxZfc",
+						"QvsViewClient.aspx"
+					],
+					"query": [
+						{
+							"key": "public",
+							"value": "only"
+						},
+						{
+							"key": "size",
+							"value": "long"
+						},
+						{
+							"key": "host",
+							"value": "QVS%40masrv1005"
+						},
+						{
+							"key": "name",
+							"value": "Temp/182f4df91a644c3ea1ebdc920ba1a799.csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getkey",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ga=GA1.3.108641929.1569965423; xrfkey=CyCG2aqAlbLEBSpZ; AccessPointSession=2e656954-06f7-801c-c517-a810131f755d; _gid=GA1.3.832386607.1574893761; _gat=1",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": "indicadores.agricultura.gov.br",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": "keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "max-age=0",
+						"type": "text"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": "gzip, deflate",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://indicadores.agricultura.gov.br/zarc/index.htm",
+					"protocol": "http",
+					"host": [
+						"indicadores",
+						"agricultura",
+						"gov",
+						"br"
+					],
+					"path": [
+						"zarc",
+						"index.htm"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "step 1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"type": "text",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
+					},
+					{
+						"key": "Cookie",
+						"type": "text",
+						"value": "_ga=GA1.3.108641929.1569965423; xrfkey=CyCG2aqAlbLEBSpZ; AccessPointSession=2e656954-06f7-801c-c517-a810131f755d; _gid=GA1.3.832386607.1574893761; _gat=1"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+					},
+					{
+						"key": "Host",
+						"type": "text",
+						"value": "indicadores.agricultura.gov.br"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": "keep-alive"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": "max-age=0"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"type": "text",
+						"value": "1"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": "gzip, deflate"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://indicadores.agricultura.gov.br/QvAjaxZfc/QvsViewClient.aspx?mark=40E5628FE7104EE3&host=QVS%40masrv1005&view=PORTALQVW%2FSISSER.qvw&slot=&platform=browser.chrome&dpi=96&xrfkey=zYgi0KQ2Jl1HOBIJ",
+					"protocol": "http",
+					"host": [
+						"indicadores",
+						"agricultura",
+						"gov",
+						"br"
+					],
+					"path": [
+						"QvAjaxZfc",
+						"QvsViewClient.aspx"
+					],
+					"query": [
+						{
+							"key": "mark",
+							"value": "40E5628FE7104EE3"
+						},
+						{
+							"key": "host",
+							"value": "QVS%40masrv1005"
+						},
+						{
+							"key": "view",
+							"value": "PORTALQVW%2FSISSER.qvw"
+						},
+						{
+							"key": "slot",
+							"value": ""
+						},
+						{
+							"key": "platform",
+							"value": "browser.chrome"
+						},
+						{
+							"key": "dpi",
+							"value": "96"
+						},
+						{
+							"key": "xrfkey",
+							"value": "zYgi0KQ2Jl1HOBIJ"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
