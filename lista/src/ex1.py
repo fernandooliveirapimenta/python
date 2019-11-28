@@ -1,3 +1,7 @@
+"""
+dkgj
+"""
 print('Ola mundo!')
-msg = 'ola'
-print(msg)
+MSG = 'ola'
+print(MSG)
+
