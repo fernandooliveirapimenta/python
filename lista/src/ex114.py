@@ -1,5 +1,8 @@
 import requests
+import urllib.request
 
+
+# urllib.request.urlopen('')
 
 try:
     response = requests.get("http://pudim.com.br/")
